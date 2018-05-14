@@ -7,7 +7,7 @@ for(i = 0; i < fileList.length; i++)
 {
   if (endsWith(fileList[i], ".img"))
   {
-  	run("Bio-Formats (Windowless)", "open=[" + dir + "/" + fileList[i]+ "]");
+    run("Bio-Formats (Windowless)", "open=[" + dir + "/" + fileList[i]+ "]");
     newName = replace(fileList[i], ".img", "jpg");
     saveAs("Jpeg", outDir + "/" + newName);
     close();
