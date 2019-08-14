@@ -7,6 +7,6 @@ Utility scripts and codes for imaging analyais
 
 mogrify -resize 3000000@\> -quality 100 *.JPG
 
-3. To batch rename file extensions (Ubuntu 18.04):
+3. To batch rename file extensions (Ubuntu 18.04), .jpg -> .JPG:
 
 rename "s/.jpg/.JPG/" *.jpg
